@@ -4,11 +4,13 @@ body {
   background-attachment: fixed;
 }
 
+
 .navbar {
   text-align:center;
   margin-top:10px;
   margin-bottom:10px;
 }
+
 
 .navbar a {
   display:inline-block;
@@ -20,10 +22,12 @@ body {
   text-decoration:none;
 }
 
+
 .navbar a:hover {
   text-decoration:underline;
   font-weight:bold;
 }
+
 
 .banner {
   width:100%;
@@ -33,12 +37,14 @@ body {
   font-size:60px;
 }
 
+
 .pics {
   width:100%;
-  height:auto;
+  height:300px;
   text-align:center;
-  margin-bottom:30px;
+ 
 }
+
 
 .pics figure {
   display:inline-block;
@@ -50,6 +56,20 @@ body {
   margin:5px 5px 5px 5px;
   border:3px solid black;
   border-radius:10px;
+}
+
+.pics figcaption {
+  width:100%;
+  float:left;
+  height:60px;
+  background-color:red;
+}
+
+.content_banner {
+  margin:0 auto;
+  width:100%;
+  text-align:center;
+  background-color:blue;
 }
 
 .footer {
