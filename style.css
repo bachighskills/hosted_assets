@@ -6,11 +6,12 @@ body {
 
 
 .navbar {
+  margin:0 auto;
+  width:940px;
   text-align:center;
   margin-top:10px;
   margin-bottom:10px;
 }
-
 
 .navbar a {
   display:inline-block;
@@ -22,7 +23,6 @@ body {
   text-decoration:none;
 }
 
-
 .navbar a:hover {
   text-decoration:underline;
   font-weight:bold;
@@ -30,51 +30,64 @@ body {
 
 
 .banner {
-  width:100%;
+  margin:0 auto;
+  width:940px;
   height:150px;
   line-height:150px;
   text-align:center;
   font-size:60px;
+  background-image: linear-gradient(rgba(100, 0, 0, 0.5), rgba(255, 255, 0, 0.5));
+  border-radius:10px;
+  margin-bottom:20px;
 }
 
 
 .pics {
   width:100%;
-  height:300px;
+  height:270px;
   text-align:center;
- 
 }
 
+.pics img {
+  border-radius:10px;
+}
 
 .pics figure {
   display:inline-block;
   width:300px;
-  height:200px;
+  height:auto;
   color:black;
   text-align:center;
   font-size:14px;
-  margin:5px 5px 5px 5px;
-  border:3px solid black;
+  margin:0px 5px 0px 5px;
+  border:2px solid black;
   border-radius:10px;
 }
 
 .pics figcaption {
   width:100%;
   float:left;
-  height:60px;
-  background-color:red;
+  height:40px;
+  border-radius:10px;
 }
 
-.content_banner {
+.description {
   margin:0 auto;
-  width:100%;
-  text-align:center;
-  background-color:blue;
+  width:940px;
+  height:auto;
+  text-align:left;
+  color:white;
+  background-color:rgba(0, 0, 100, 0.4);
+  border-radius:10px;
+}
+
+.description p {
+  padding:30px;
 }
 
 .footer {
   width:100%;
-  height:200px;
-  line-height:200px;
+  height:100px;
+  line-height:100px;
   text-align:center;
 }
